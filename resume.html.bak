@@ -4,13 +4,14 @@
         <!-- meta charset -->
         <meta charset="utf-8">
         <!-- site title -->
-        <title>Jonathan Martin | Personal Resume</title>
+        <title>Phantom | Personal Resume Template</title>
         <!-- meta description -->
         <meta name="description" content="">
         <!-- mobile viwport meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- fevicon -->
-               
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        
         <!-- ================================
         CSS Files
         ================================= -->
@@ -33,12 +34,30 @@
             <div class="loading-mask"></div>
         </div>
 
-       
+        <div class="preview-wrapper">
+            <div class="switcher-head">
+                <span>Style Switcher</span>
+                <div class="switcher-trigger tf-tools"></div>
+            </div>
+
+            <div class="switcher-body">
+                <h4>Choose Color:</h4>
+                <ul class="color-options list-none">
+                    <li class="c0" data-color="color-0" title="Default">Default</li>
+                    <li class="c1" data-color="color-1" title="Red">Red</li>
+                    <li class="c2" data-color="color-2" title="Green">Green</li>
+                    <li class="c3" data-color="color-3" title="Blue">Blue</li>
+                </ul>
+            </div>
+        </div>
 
         <main class="site-wrapper">
             <div class="pt-table">
                 <div class="pt-tablecell page-resume relative">
-                   
+                    <!-- .close -->
+                    <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
+                    <!-- /.close -->
+
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
@@ -62,8 +81,8 @@
                                                 <i class="tf-documents5"></i>
                                             </div>
                                             <div class="history-text">
-                                                <h5>M.S. in Computer Science</h5>
-												<span>University of Louisville</span>
+                                                <h5>University of Louisville</h5>
+												<span>M.S. in Computer Science</span>
                                                 <span>2013 - 2015</span>
                                             </div>
                                         </div>
@@ -74,8 +93,8 @@
                                                 <i class="tf-documents5"></i>
                                             </div>
                                             <div class="history-text">
-                                                <h5>CS Master's Prerequisites</h5>
-												<span>KCTCS & WKU</span>
+                                                <h5>KCTCS & WKU</h5>
+												<span>Completion of MSCS Prerequisite Coursework</span>
                                                 <span>2010 - 2012</span>
                                             </div>
                                         </div>
@@ -87,8 +106,8 @@
                                                 <i class="tf-documents5"></i>
                                             </div>
                                             <div class="history-text">
-                                                <h5>B.S. in Math and Science Education</h5>
-												<span>Western Kentucky University</span>
+                                                <h5>Western Kentucky University</h5>
+												<span>B.S. in Math and Science Education</span>
                                                 <span>2004 - 2009</span>
 												
                                             </div>
@@ -109,7 +128,7 @@
                                         <div class="history-item">                                            
                                             <div class="history-text">
                                                 <h5>Martin Electronics Co-owner<br>Private Tutor &<br>Substitute Teacher</h5>
-												<span>2017 - 2022</span>
+												<span>2017 - Present</span>
 												<style>
 												p
 												{
@@ -119,13 +138,11 @@
 												  line-height:1.5;
 												}
 												</style>
-                                               	<p>• Privately tutored in math, programming, and computer literacy</p>
+                                               	<p>• PC/Laptop troubleshooting and repair, PC System building, home network installation</p>
+												<p>• Collins Distribution Internet Reseller, OTA antenna sales and installation, satellite dish installation</p>
+												<p>• Home security system sales and installation, TV mount installation, social media management and marketing</p>
 												<p>• Taught as a substitute teacher for the local school system</p>
-												<p>• PC/Laptop troubleshooting and repair, PC System building, home network installation</p>
-												<p>• Collins Distribution Rural Internet Reseller, OTA antenna sales and installation, satellite dish installation</p>
-												<p>• Home security system sales and installation, TV mount installation, MIMO Cellular Antenna installation</p>
-												
-												
+												<p>• Privately tutored in math, programming, and computer literacy during this time</p>
                                             </div>
                                         </div>
                                         <!-- /.history-item -->
@@ -133,31 +150,46 @@
                                         <div class="history-item">                                            
                                             <div class="history-text">
                                                 <h5>Head of Tutoring Services &<br>Adjunct Instructor</h5>
-												<span>Southcentral KY Community and Technical College</span>
+												<span>SKYCTC</span>
                                                 <span>2009 - 2016</span>
                                                	<p>• Tutored and coordinated tutoring in math, CIT/programming, and other topics</p>
 												<p>• Interviewed and trained student/part-time tutors</p>
 												<p>• Taught over 100 credit hours of math and CIT/programming courses</p>
 												<p>• Award: The Learning Center at SKYCTC voted BEST Academic Improvement Program/Tutoring Center in area (2013)</p>
-												<p>• Award: SKYCTC Mentor Award winner for outstanding service to students (2011)</p>
+												<p>• Award: SKYCTC Mentor Award Nominee for exceptional service to students (2012)</p>
                                             </div>
                                         </div>
                                      </div>
-                                </div> 
-								<br><!-- /.history-block -->
+                                </div> <!-- /.history-block -->
                             </div> <!-- /.col -->
                         </div> <!-- /.row -->
-						
+						<div class="row">
+                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                                <div class="page-title text-center">
+                                    
+									<p><br><br>I'm Jonathan Martin. Here's a quick breakdown of my education and career history:</p>
+									<p><br></p><p>2009 - 2016</p>
+                                    <p><br></p><p>In 2009 I completed my undergraduate studies to become an educator, and that same year I was hired by Southcentral KY Community and Technical College as head of their tutoring services. I was also asked to be a part-time math instructor.</p>
+									<p><br></p><p>However, I regretted not originally pursuing a career in computer science.</p>
+									<p><br></p><p>Thankfully over the years, SKYCTC paid for the prerequisite classes I needed to switch to the MSCS graduate program, and paid for all of my coursework. With my MSCS complete in 2015, I was asked if I would also teach CIT and programming courses, which I did.</p> 
+									<p><br></p><p>I'm very proud of the seven years I spent working at SKYCTC.</p>
+									<p><br><br</p>
+									<p><br></p><p>2017 - Present</p>
+                                    <p><br></p><p>At the end of 2016 I developed some health issues that made it impossible to continue teaching regularly. It was painful to leave SKYCTC. I began working with my father in our family business as I needed a more flexible schedule.</p>
+									<p><br></p><p>We resell rural internet access through a company called Collins Distribution, and I now repair and troubleshoot people's computers. </p>
+									<p><br></p><p>I still tutor privately in math and programming and regularly substitute teach in the local school system.</p> 
+									<p><br></p><p>My health has slowly improved and I'm now seeking work experience outside of education as a programmer or game developer.</p>
+								</div>
+                            </div>
+                        </div> <!-- /.row -->
                     </div> <!-- /.container -->
-					
 
                     <nav class="page-nav clear">
                         <div class="container">
                             <div class="flex flex-middle space-between">
-							
-                                <span class="prev-page"><a href="about.html" class="link">&larr; Prev Page</a></span>
+                                <span class="prev-page"><a href="services.html" class="link">&larr; Prev Page</a></span>
                               
-                                <span class="next-page"><a href="contact.html" class="link">Next Page &rarr;</a></span>
+                                <span class="next-page"><a href="works.html" class="link">Next Page &rarr;</a></span>
                             </div>
                         </div>
                         <!-- /.page-nav -->

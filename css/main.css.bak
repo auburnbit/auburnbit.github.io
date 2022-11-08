@@ -274,12 +274,9 @@ textarea, label {
 
 .page-title {
   margin-bottom: 75px;
-  
 }
 .page-title img {
   margin-bottom: 20px;
-  max-width: 100%;
-  max-height: 100vh;
 }
 .page-title h2 {
   font-size: 68px;
@@ -342,7 +339,7 @@ textarea, label {
 }
 
 .page-nav {
-  top: 25px;
+  bottom: 40px;
   left: 0;
   position: absolute;
   right: 0;
@@ -586,6 +583,7 @@ textarea, label {
   display: flex;
 }
 .about-author .author-thumb {
+  background-color: #fff;
   border: 5px solid #1e2530;
   margin-right: 30px;
   padding: 5px;
@@ -593,7 +591,6 @@ textarea, label {
 .about-author .author-thumb img {
   border: 2px solid #1e2530;
   width: 145px;
-
 }
 .about-author .author-desc p {
   color: #1e2530;
@@ -760,7 +757,7 @@ textarea, label {
   border-bottom: 1px solid #293342;
   left: 0;
   margin-bottom: 0;
-  padding: 15px 34px 14px 14px;
+  padding: 15px 34px 14px;
   position: absolute;
   right: 0;
   top: 0;
@@ -773,14 +770,13 @@ textarea, label {
 
 .history-scroller {
   padding-top: 82px;
-  max-height: 2000px;
+  max-height: 377px;
 }
 
 .history-item {
   display: table;
   font-family: "Open Sans", sans-serif;
   padding-left: 32px;
-  padding-right: 32px;
   margin-bottom: 20px;
   width: 100%;
 }
