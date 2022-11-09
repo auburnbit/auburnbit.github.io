@@ -39,10 +39,20 @@
                 <div class="pt-tablecell page-about relative">
                    
                     <div class="container">
+					<nav class="page-nav clear">
+                        <div class="container">
+                            <div class="flex flex-middle space-between">
+							
+                                <span class="prev-page"><a href="index.html" class="link">&larr; Prev Page</a></span>
+                                <span class="next-page"><a href="resume.html" class="link">Next Page &rarr;</a></span>
+                            </div>
+                        </div>
+                        <!-- /.page-nav -->
+                    </nav>
                         <div class="row">
                             <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
                                 <div class="page-title text-center">
-                                    <h2>About <span class="primary">me</span> <span class="title-bg">Jonathan Martin</span></h2>
+                                    <h2>About <span class="primary">me</span> <span class="title-bg">JJM</span></h2>
                                     <p>I am a graduate of the University of Louisville with an M.S. in Computer Science, and a graduate of Western Kentucky University with a B.S. in Math and Science Education.</p>
 									<p>I have taught and tutored for 13 years.</p>
 									<p>This has primarily consisted of teaching math and programming in an educational context.</p>
@@ -57,12 +67,12 @@
                                     </figure> <!-- /.author-bio -->
 									
                                     <div class="author-desc">
-										<p><br></p>
+										<p></p>
 										<p><b>Education:</b> M.S. in Computer Science &</p>
 										<p>          B.S. in Math and Science Education
                                         <p><b>Languages/Technolgies:</b> C#, C++, Java, Python, Unity3D, Godot, Photoshop, GitHub</p>
                                         <p><b>Seeking:</b> Remote Only</p>
-										<p><br><br></p>
+										<p></p>
                                     </div>
                                     <!-- /.author-desc -->
                                 </div> <!-- /.about-author -->
@@ -72,16 +82,7 @@
                             
                             </div> <!-- /.col -->
                         </div> <!-- /.row -->
-						<nav class="page-nav clear">
-                        <div class="container">
-                            <div class="flex flex-middle space-between">
-							
-                                <span class="prev-page"><a href="index.html" class="link">&larr; Prev Page</a></span>
-                                <span class="next-page"><a href="resume.html" class="link">Next Page &rarr;</a></span>
-                            </div>
-                        </div>
-                        <!-- /.page-nav -->
-                    </nav>
+						
                     </div> <!-- /.container -->
 					
 
