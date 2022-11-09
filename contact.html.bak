@@ -4,14 +4,13 @@
         <!-- meta charset -->
         <meta charset="utf-8">
         <!-- site title -->
-        <title>Phantom | Personal Resume Template</title>
+        <title>Jonathan Martin | Personal Resume</title>
         <!-- meta description -->
         <meta name="description" content="">
         <!-- mobile viwport meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- fevicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        
+             
         <!-- ================================
         CSS Files
         ================================= -->
@@ -34,50 +33,41 @@
             <div class="loading-mask"></div>
         </div>
 
-        <div class="preview-wrapper">
-            <div class="switcher-head">
-                <span>Style Switcher</span>
-                <div class="switcher-trigger tf-tools"></div>
-            </div>
-
-            <div class="switcher-body">
-                <h4>Choose Color:</h4>
-                <ul class="color-options list-none">
-                    <li class="c0" data-color="color-0" title="Default">Default</li>
-                    <li class="c1" data-color="color-1" title="Red">Red</li>
-                    <li class="c2" data-color="color-2" title="Green">Green</li>
-                    <li class="c3" data-color="color-3" title="Blue">Blue</li>
-                </ul>
-            </div>
-        </div>
-
         <main class="site-wrapper">
             <div class="pt-table">
                 <div class="pt-tablecell page-contact relative">
-                    <!-- .close -->
-                    <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
-                    <!-- /.close -->
+                   
+				   <nav class="page-nav clear">
+                        <div class="container">
+                            <div class="flex flex-middle space-between">
+                                <span class="prev-page"><a href="resume.html" class="link">&larr; Prev Page</a></span>
+                                
+                            </div>
+                        </div>
+                        <!-- /.page-nav -->
+                    </nav>
+                    <!-- /.container -->
 
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
                                 <div class="page-title text-center">
-                                    <h2>Get in  <span class="primary">touch</span> <span class="title-bg">Contact</span></h2>
-                                    <p>Please feel free to contact me!</p>
+                                    <h2>Contact<span class="primary"> me</span> <span class="title-bg">Get in touch</span></h2>
+                                    <p>Please feel free to get in touch!</p>
                                 </div>
                             </div>                            
                         </div> <!-- /.row -->
 
                         <div class="row">
-                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-10 col-lg-8">
+                            <div class="col-xs-12 col-xs-offset-1 col-sm-offset-2 col-md-offset-3 col-md-10 col-lg-offset-4 col-lg-8">
                                 <div class="contact-block">
                                     <div class="media">
                                         <div class="media-left">
                                             <i class="tf-envelope2"></i>
                                         </div>
                                         <div class="media-body">
-                                            <h4>Email</h4>
-                                            <p><a href="mailto:contact@jamesjonathanmartin.com">contact@jamesjonathanmartin.com</a></p>
+                                            <h4>Email (Preferred)</h4>
+                                            <p><a href="mailto:contact@jamesjonathanmartin.com"><font size="-1">contact@jamesjonathanmartin.com</font></a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -88,8 +78,9 @@
                                             <i class="tf-phone2"></i>
                                         </div>
                                         <div class="media-body">
-                                            <h4>Phone</h4>
-                                            <p><a href="tel:+270-999-4625">(270) 999-4625</a></p>
+                                            <h4>Phone (Please leave voicemail)</h4>
+                                            <p><a href="tel:+270-999-4625"><font size="-1">(270) 999-4625</font></a></p>
+											<br><br><br><br>
                                         </div>
                                     </div>
                                 </div>                                
@@ -97,16 +88,7 @@
                         </div> <!-- /.row -->
                     </div> <!-- /.container -->
 
-                    <nav class="page-nav clear">
-                        <div class="container">
-                            <div class="flex flex-middle space-between">
-                                <span class="prev-page"><a href="resume.html" class="link">&larr; Prev Page</a></span>
-                                
-                            </div>
-                        </div>
-                        <!-- /.page-nav -->
-                    </nav>
-                    <!-- /.container -->
+                    
 
                 </div> <!-- /.pt-tablecell -->
             </div> <!-- /.pt-table -->
