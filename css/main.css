@@ -346,6 +346,7 @@ textarea, label {
   left: 0;
   position: absolute;
   right: 0;
+  z-index: 10;
 }
 .page-nav span {
   font-family: "Open Sans", sans-serif;
@@ -794,7 +795,7 @@ textarea, label {
   width: 66px;
 }
 .history-item .history-icon i {
-  font-size: 18px;
+  font-size: 40px;
   position: absolute;
   top: 50%;
   left: -webkit-calc(50% - 12.5px);
