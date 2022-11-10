@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html class="no-js" lang="eng">
     <head>
         <!-- meta charset -->
         <meta charset="utf-8">
@@ -40,18 +40,19 @@
                 <div class="pt-tablecell page-resume relative">
                    
                     <div class="container">
-					
-					<nav class="page-nav clear">
-                        <div class="container">
-                            <div class="flex flex-middle space-between">
-							
-                                <span class="prev-page"><a href="about.html" class="link">&larr; Prev Page</a></span>
-                              
-                                <span class="next-page"><a href="contact.html" class="link">Next Page &rarr;</a></span>
-                            </div>
-                        </div>
-                        <!-- /.page-nav -->
-                    </nav>
+						<div class="row">
+							<nav class="page-nav clear">
+								<div class="container">
+									<div class="flex flex-middle space-between">
+									
+										<span class="prev-page"><a href="about.html" class="link">&larr; Prev Page</a></span>
+									  
+										<span class="next-page"><a href="contact.html" class="link">Next Page &rarr;</a></span>
+									</div>
+								</div>
+								<!-- /.page-nav -->
+							</nav>
+						</div>
                         <div class="row">
                             <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
                                 <div class="page-title text-center">
@@ -62,9 +63,7 @@
 						
 						<div class="row">
                             <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-                                <div class="page-title text-center">
-                                    <a href="resume.pdf">Printable Résumé PDF</a>								
-								</div>
+                                <a style="color:blue;" href="resume.pdf">Printable Résumé PDF</a>	
                             </div>
                         </div> <!-- /.row -->
 
@@ -78,8 +77,8 @@
                                     <div class="history-scroller">
                                         <div class="history-item">
                                             <div class="history-icon">
-                                                <span class="history-hex"></span>
-                                                <i class="tf-documents5"></i>
+                                                
+                                                <i class="tf-ion-ribbon-b"></i>
                                             </div>
                                             <div class="history-text">
                                                 <h5>M.S. in Computer Science</h5>
@@ -90,8 +89,7 @@
 										
 										<div class="history-item">
                                             <div class="history-icon">
-                                                <span class="history-hex"></span>
-                                                <i class="tf-documents5"></i>
+                                               <i class="tf-ion-ios-book"></i>
                                             </div>
                                             <div class="history-text">
                                                 <h5>CS Master's Prerequisites</h5>
@@ -103,8 +101,7 @@
                                         <!-- /.history-item -->
                                         <div class="history-item">
                                             <div class="history-icon">
-                                                <span class="history-hex"></span>
-                                                <i class="tf-documents5"></i>
+                                                <i class="tf-ion-ribbon-b"></i>
                                             </div>
                                             <div class="history-text">
                                                 <h5>B.S. in Math and Science Education</h5>
