@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html class="no-js" lang="eng">
     <head>
 		<meta charset="utf-8">
         <!-- site title -->
@@ -84,7 +84,7 @@
                                                 <span class="icon">
                                                     <i class="tf-tools"></i>
                                                 </span>
-                                                <span class="title">Resume</span>
+                                                <span class="title">Résumé</span>
                                             </span>
                                           
                                         </a>    
@@ -118,7 +118,8 @@
                     </div> <!-- /.container -->
 
                 </div> <!-- /.pt-tablecell -->
-            </div> <!-- /.pt-table -->
+            </div>
+			<p hidden> This page is in English. This page is in English.</p>			<!-- /.pt-table -->
         </main> <!-- /.site-wrapper -->
         
         <!-- ================================
