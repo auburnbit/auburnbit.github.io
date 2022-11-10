@@ -1223,7 +1223,7 @@ textarea, label {
   padding-top: 60px;
 }
 .pt-table.desktop-768 .pt-tablecell .page-nav {
-  bottom: 40px;
+  top: 20px;
 }
 
 /* =================================== */
