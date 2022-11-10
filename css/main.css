@@ -346,7 +346,7 @@ textarea, label {
   left: 0;
   position: absolute;
   right: 0;
-  z-index: 0;
+  z-index: 10;
 }
 .page-nav span {
   font-family: "Open Sans", sans-serif;
