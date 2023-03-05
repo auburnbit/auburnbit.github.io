@@ -1,0 +1,507 @@
+var quiz_dict = {
+	"LTS Unity release as of March 3rd, 2023
+":{
+		"Definition": "2021.3
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"The hotkey to create a new empty GameObject
+":{
+		"Definition": "Press Ctrl+Shift+N
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"The hotkey to toggle visibility of all descendant GameObjects of the root GameObject
+":{
+		"Definition": "Press Alt while clicking the drop-down arrow
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"The hotkey to create a parent GameObject
+":{
+		"Definition": "Press Ctrl+Shift+G
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"The hotkey to duplicate GameObjects
+":{
+		"Definition": "Press Ctrl+D
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"The hotkey to paste a GameObject as a child
+":{
+		"Definition": "Press Ctrl+Shift+V
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For naming/casing, use this unless noted otherwise
+":{
+		"Definition": "PascalCase
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For naming/casing local/private variables and parameters, use this
+":{
+		"Definition": "camelCase
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For naming/casing, avoid these
+":{
+		"Definition": "snake_case, kebab-case, and Hungarian notation
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For naming/casing, if you have this in a file, the source file name must match
+":{
+		"Definition": "Monobehavior
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For formatting, choose one of these for braces
+":{
+		"Definition": "K&R or Allman
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For formatting, choose a max line width in the range of this many characters
+":{
+		"Definition": "80 and 120
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For formatting, use a single space before these
+":{
+		"Definition": "flow control conditions
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For formatting, avoid spaces inside these
+":{
+		"Definition": "brackets
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For formatting, use a single space after a comma between these
+":{
+		"Definition": "function arguments
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For formatting, don't add space after these in function arguments
+":{
+		"Definition": "parenthesis
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For formatting, don't add space between these
+":{
+		"Definition": "function names and parenthesis
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For formatting, use this for visual separation
+":{
+		"Definition": "vertical spacing
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For comments, rather than simply answering "what" or "how", they can do this
+":{
+		"Definition": "fill in the gaps and tell us "why"
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For comments, use // to do this
+":{
+		"Definition": "keep the explanation next to the logic
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For comments, use this instead of a comment for serialized fields.
+":{
+		"Definition": "a Tooltip
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For comments, avoid these, as they encourage large class sizes.
+":{
+		"Definition": "Regions
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For comments, use this for legal information or licensing to save space
+":{
+		"Definition": "a link to an external reference
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"Use this in front of public methods or functions for output documentation/Intellisense
+":{
+		"Definition": "a summary XML tag
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For 'using' lines, keep them here
+":{
+		"Definition": "at the top of the file
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For 'using' lines, remove these
+":{
+		"Definition": "unused lines
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For namespaces, use this type of casing
+":{
+		"Definition": "PascalCase
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For namespaces, add this at the top to avoid typing namespace repeatedly
+":{
+		"Definition": "a using line
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For namespaces, create sub-namespaces with this
+":{
+		"Definition": "the dot operator
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming enums, use this plurality of type name
+":{
+		"Definition": "singular
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming enums and Flags enums, do not use either of these
+":{
+		"Definition": "a prefix or suffix
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming Flags enums, use this plurality of type name
+":{
+		"Definition": "plural
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For Flags enums, use column alignment for these
+":{
+		"Definition": "binary values
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming interfaces, use these type of phrases
+":{
+		"Definition": "adjective
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming interfaces, use this in front
+":{
+		"Definition": "the 'I' prefix
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming methods, start the name with this part of speech
+":{
+		"Definition": "a verb or verb phrase
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming parameters, use this casing
+":{
+		"Definition": "camelCase
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming classes or structs, name them using this part of speech
+":{
+		"Definition": "a noun or noun phrase
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming classes or structs, you should avoid attaching these to the name
+":{
+		"Definition": "prefixes
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For classes or structs, there should be only one of these per file.
+":{
+		"Definition": "Monobehavior
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming events, use this part of speech
+":{
+		"Definition": "a verb phrase
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming events, use this verb form before the event
+":{
+		"Definition": "present participle
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"When naming events, use this verb form after the event
+":{
+		"Definition": "past participle
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"For events, use this for most events
+":{
+		"Definition": "System.Action delegate
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"System.Action delegate can take this many parameters
+":{
+		"Definition": "0 to 16
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
+	"
+":{
+		"Definition": "
+",
+		"Catagory": "Unity",
+		"UserGrade": "0",
+		"RepNumber": "0",
+		"Easiness": "0",
+		"Interval": "0",
+		"LastDateAndTime": "never",
+	},
